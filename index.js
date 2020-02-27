@@ -10,7 +10,7 @@ function setup() {
   }
   
   function draw() {
-    background(0);
+    background(200);
     rotateY(millis() / 10000);
     noStroke();
     ambientLight(1000);
